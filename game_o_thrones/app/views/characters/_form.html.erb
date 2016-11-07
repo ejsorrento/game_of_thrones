@@ -1,0 +1,22 @@
+<%= form_for @character do |f| %>
+
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :allegiance %><br>
+    <%= f.text_area :allegiance %>
+  </p>
+
+  <p>
+    <%= f.label :sex %><br>
+    <%= f.text_area :sex %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>

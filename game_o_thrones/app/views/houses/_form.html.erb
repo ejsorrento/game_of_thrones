@@ -1,0 +1,17 @@
+<%= form_for @house do |f| %>
+
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :motto %><br>
+    <%= f.text_area :motto %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>
